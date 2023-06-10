@@ -84,3 +84,54 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.top {
+  height: calc(100vh - 81px);
+  background-image: url(../images/top-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.title {
+  padding-top: 16%;
+  margin-bottom: 10px;
+  font-size: 96px;
+  /* font-weight: normal; */
+}
+
+.subtitle {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.top__text {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.buy-text {
+  padding-top: 6px;
+  font-size: 13px;
+}
+
+.buy-btn {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  padding: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+}
+
+.buy-btn__text {
+  color: #f6f4f5;
+  padding: 20px 110px;
+}
+
+.buy-btn__price {
+  padding: 20px 105px;
+  background-color: #f6f4f5;
+}
