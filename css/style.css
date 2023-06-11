@@ -32,13 +32,29 @@ li {
 }
 
 img {
+  display: block;
   max-width: 100%;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  border-color: transparent;
+  border: none;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
 }
 
 .container {
   max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.section__title {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 body {
@@ -54,8 +70,8 @@ body {
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   height: 80px;
 }
@@ -65,8 +81,13 @@ body {
   gap: 0 20px;
 }
 
+.logo {
+  justify-self: center;
+}
+
 .basket {
   position: relative;
+  justify-self: end;
 }
 
 .basket--on span {
@@ -97,7 +118,7 @@ body {
   padding-top: 16%;
   margin-bottom: 10px;
   font-size: 96px;
-  /* font-weight: normal; */
+  font-weight: 400;
 }
 
 .subtitle {
@@ -134,4 +155,98 @@ body {
 .buy-btn__price {
   padding: 20px 105px;
   background-color: #f6f4f5;
+}
+
+/* Features */
+
+.features {
+  margin: 100px 0;
+}
+
+.features__titles {
+  display: flex;
+}
+
+.features__title {
+  flex-basis: 300px;
+  padding-right: 20px;
+}
+
+.features__text {
+  max-width: 330px;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 2px;
+
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.tabs__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.tabs__btn-item {
+  font-weight: 700;
+}
+
+.tabs__btn-item--active {
+  color: #070707;
+}
+
+.tabs__content-item {
+  display: grid;
+  grid-template-columns: auto 280px;
+  grid-template-rows: auto 150px;
+  gap: 40px;
+}
+
+.tabs__content-img {
+  grid-row: 1/-1;
+  align-self: stretch;
+}
+
+.tabs__content-box h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.tabs__content-box {
+  line-height: 1.15;
+}
+
+.video {
+  grid-column: 2/3;
+  width: 280px;
+  height: 150px;
+  background-image: url(/images/content1-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  padding: 9px 10px;
+}
+
+.video__btn {
+  margin-left: 22px;
+  border-radius: 50%;
+}
+
+.video span {
+  font-size: 13px;
+  color: #f6f4f5;
 }
