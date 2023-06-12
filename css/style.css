@@ -629,6 +629,16 @@ body {
 
 /* Media rules */
 
+@media (max-width: 1140px) {
+  .footer .menu {
+    display: none;
+  }
+  .footer .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 992px) {
   .tabs {
     display: block;
@@ -715,7 +725,12 @@ body {
     display: block;
   }
   .tabs__content-item {
+    position: relative;
     display: block;
+    height: 0;
+  }
+  .tabs__content-item--active {
+    height: auto;
   }
   .video {
     width: auto;
@@ -741,6 +756,15 @@ body {
   }
   .accessories__text {
     font-size: 28px;
+  }
+  .footer .nav {
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .social {
+    order: -1;
+    gap: 30px;
   }
 }
 
