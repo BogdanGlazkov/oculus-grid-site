@@ -526,3 +526,61 @@ body {
   border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%)
     1;
 }
+
+/* Contacts */
+
+.contacts {
+  margin-bottom: 100px;
+}
+
+.contacts__title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #070707;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.contacts__form {
+  flex-basis: 600px;
+}
+
+.contacts__text {
+  font-size: 13px;
+}
+
+.form {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form__input {
+  width: 100%;
+  padding: 22px 70px 22px 0;
+  border: none;
+  border-bottom: 1px solid #cacad6;
+}
+
+.form__input::placeholder {
+  font-size: 13px;
+  color: #cacad6;
+}
+
+.form__btn {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  width: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #cacad6;
+  border-radius: 50%;
+  color: #5c5c5e;
+}
