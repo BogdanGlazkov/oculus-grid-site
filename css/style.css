@@ -307,14 +307,18 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border: 1px solid #bc10d8;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%)
+    1;
 }
 
 .games__item {
   display: flex;
   flex-direction: column;
   padding: 20px 20px 22px;
-  border: 1px solid #bc10d8;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%)
+    1;
 }
 
 .games__item-img {
@@ -447,4 +451,78 @@ body {
   color: #ffffff;
   background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
   border-radius: 50%;
+}
+
+/* Accessories */
+
+.accessories {
+  margin-bottom: 100px;
+}
+
+.accessories__title {
+  margin-bottom: 30px;
+}
+
+.accessories__text {
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.accessories__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%)
+    1;
+}
+
+.item__img {
+  margin-bottom: 10px;
+}
+
+.item__title {
+  min-height: 56px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #070707;
+}
+
+.item__text {
+  margin-top: auto;
+  margin-bottom: 42px;
+}
+
+.item__price {
+  font-weight: 700;
+  line-height: 18px;
+  color: #070707;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.item__btn {
+  padding: 6px;
+  font-weight: 700;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%)
+    1;
 }
