@@ -90,7 +90,11 @@ body {
   justify-self: end;
 }
 
-.basket--on span {
+.basket span {
+  display: none;
+}
+
+.basket.basket--on span {
   font-size: 11px;
   width: 15px;
   height: 15px;
@@ -583,4 +587,19 @@ body {
   background-color: #cacad6;
   border-radius: 50%;
   color: #5c5c5e;
+}
+
+/* Footer */
+
+.footer {
+  margin-bottom: 44px;
+  padding: 30px 0;
+  border-top: 1px solid #cacad6;
+  border-bottom: 1px solid #cacad6;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  justify-self: end;
 }
