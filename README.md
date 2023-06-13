@@ -43,10 +43,12 @@
 <li>Active links</li>
 </ul><ul>
 <li>Authorization</li>
+</ul><ul>
+<li>Dinamic content</li>
 </ul>
-<h2>Dinamic content</h2>
+<h2>Acknowledgement</h2>
 <hr><ul>
 <li>This project was based on @vadymprokopchuk tutorials</li>
-</ul><h2>Contact</h2>
-<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/bogdan-glazkov/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a>
-<span style="margin-right: 30px;"></span><a href="https://github.com/BogdanGlazkov"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+</ul><h2>Contacts</h2>
+<hr><p><span style="margin-right: 50px;"></span><a href="https://www.linkedin.com/in/bogdan-glazkov/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a>
+<span style="margin-right: 50px;"></span><a href="https://github.com/BogdanGlazkov"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
