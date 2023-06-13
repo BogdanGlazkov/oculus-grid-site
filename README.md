@@ -3,7 +3,9 @@
 <p>Latest technologies for Virtual Reality</p>
 <h2>General Information</h2>
 <hr><ul>
-<li>This responsive web site is created on pure HTML, CSS and JavaScript</li>
+<li>This web site is created on pure HTML, CSS and JavaScript</li>
+</ul><ul>
+<li>The web page is adopted to different screens and devices</li>
 </ul><ul>
 <li>Lists of items are styled mostly by CSS grids</li>
 </ul><ul>
@@ -20,13 +22,20 @@
 <h5>Code Examples</h5><ul>
 <li>Here is a code example of Hero (Top) section</li>
 </ul>
-<code><section class="top"><div class="container">
+<pre>
+<section class="top">
+<div class="container">
 <h1 class="title">Meta Quest 2</h1>
 <p class="subtitle">Get an Elite Strap free</p>          
 <p class="top__text">For a limited time only, save $59.99 USD. Offer ends 1/19/24</p>
-<button class="buy-btn" type="button"><span class="buy-btn__text">BUY NOW</span><span class="buy-btn__price">399,99 USD</span></button>
-<p class="buy-text">Meta Quest 2 is for ages 13+</p></div>
-</section></code>
+<button class="buy-btn" type="button">
+<span class="buy-btn__text">BUY NOW</span>
+<span class="buy-btn__price">399,99 USD</span>
+</button>
+<p class="buy-text">Meta Quest 2 is for ages 13+</p>
+</div>
+</section>
+</pre>
 <h2>Project Status</h2>
 <hr><p>Completed</p>
 <h2>Features that can be added</h2>
