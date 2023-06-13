@@ -13,8 +13,6 @@
 <ul><li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
-<li>TypeScript</li>
-<li>Next.js</li></ul>
 <h2>Screenshots</h2>
 <img src="./images/screenshot.jpg" alt="Screenshot" width="800" />
 <h2>Setup</h2>
@@ -22,22 +20,13 @@
 <h5>Code Examples</h5><ul>
 <li>Here is a code example of Hero (Top) section</li>
 </ul>
-<p><code>
-    <main class="main">
-      <section class="top">
-        <div class="container">
-          <h1 class="title">Meta Quest 2</h1>
-          <p class="subtitle">Get an Elite Strap free</p>
-          <p class="top__text">
-            For a limited time only, save $59.99 USD. Offer ends 1/19/24
-          </p>
-          <button class="buy-btn">
-            <span class="buy-btn__text">BUY NOW</span>
-            <span class="buy-btn__price">399,99 USD</span>
-          </button>
-          <p class="buy-text">Meta Quest 2 is for ages 13+</p>
-        </div>
-      </section></code></p>
+<code><section class="top"><div class="container">
+<h1 class="title">Meta Quest 2</h1>
+<p class="subtitle">Get an Elite Strap free</p>          
+<p class="top__text">For a limited time only, save $59.99 USD. Offer ends 1/19/24</p>
+<button class="buy-btn" type="button"><span class="buy-btn__text">BUY NOW</span><span class="buy-btn__price">399,99 USD</span></button>
+<p class="buy-text">Meta Quest 2 is for ages 13+</p></div>
+</section></code>
 <h2>Project Status</h2>
 <hr><p>Completed</p>
 <h2>Features that can be added</h2>
