@@ -22,20 +22,20 @@
 <h5>Code Examples</h5><ul>
 <li>Here is a code example of Hero (Top) section</li>
 </ul>
-<pre>
-<section class="top">
-<div class="container">
-<h1 class="title">Meta Quest 2</h1>
-<p class="subtitle">Get an Elite Strap free</p>          
-<p class="top__text">For a limited time only, save $59.99 USD. Offer ends 1/19/24</p>
-<button class="buy-btn" type="button">
-<span class="buy-btn__text">BUY NOW</span>
-<span class="buy-btn__price">399,99 USD</span>
-</button>
-<p class="buy-text">Meta Quest 2 is for ages 13+</p>
-</div>
-</section>
-</pre>
+<code>
+&lt;section class="top"&gt;
+&lt;div class="container"&gt;
+&lt;h1 class="title"&gt;Meta Quest 2&lt;/h1&gt;
+&lt;p class="subtitle"&gt;Get an Elite Strap free&lt;/p&gt;          
+&lt;p class="top__text"&gt;For a limited time only, save $59.99 USD. Offer ends 1/19/24&lt;/p&gt;
+&lt;button class="buy-btn" type="button"&gt;
+&lt;span class="buy-btn__text"&gt;BUY NOW&lt;/span&gt;
+&lt;span class="buy-btn__price"&gt;399,99 USD&lt;/span&gt;
+&lt;/button&gt;
+&lt;p class="buy-text"&gt;Meta Quest 2 is for ages 13+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</code>
 <h2>Project Status</h2>
 <hr><p>Completed</p>
 <h2>Features that can be added</h2>
